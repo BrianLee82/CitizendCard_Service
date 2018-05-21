@@ -1,0 +1,23 @@
+﻿
+
+
+====================【开始】====================
+记录时间：2017-02-21 10:30:06.017
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:1
+signature:
+
+错误信息:与“CitizendCard_Service.Models.Common.CheckParameters(string)”最匹配的重载方法具有一些无效参数
+引发异常的方法:System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Type, System.Object)
+错误应用程序或对象名称:Anonymously Hosted DynamicMethods Assembly
+在堆栈中表现形式:   在 CallSite.Target(Closure , CallSite , Type , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   在 CitizendCard_Service.Controllers.CitizenCardsController.TEST(Object obj) 位置 d:\office\扬州\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 120
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-21 10:30:05.751
+结束时间:2017-02-21 10:30:05.970
+耗    时:0时0分0秒218毫秒
+====================【结束】====================

@@ -1,0 +1,305 @@
+﻿
+
+
+====================【开始】====================
+记录时间：2017-02-22 13:19:29.496
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:9F6508D1A5EF8DF69BB32C817B351785
+
+返回:{"IsTrue":false,"ResultCode":"106","ResultMsg":"签名失败","ResultJson":null}
+开始时间:2017-02-22 13:19:27.734
+结束时间:2017-02-22 13:19:29.481
+耗    时:0时0分1秒747毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 13:33:22.790
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+返回:{"IsTrue":false,"ResultCode":"106","ResultMsg":"签名失败","ResultJson":null}
+开始时间:2017-02-22 13:32:33.755
+结束时间:2017-02-22 13:33:22.759
+耗    时:0时0分49秒4毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 13:36:10.890
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+返回:{"IsTrue":false,"ResultCode":"106","ResultMsg":"签名失败","ResultJson":null}
+开始时间:2017-02-22 13:36:08.674
+结束时间:2017-02-22 13:36:10.843
+耗    时:0时0分2秒168毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 13:36:53.803
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+返回:{"IsTrue":false,"ResultCode":"106","ResultMsg":"签名失败","ResultJson":null}
+开始时间:2017-02-22 13:36:29.882
+结束时间:2017-02-22 13:36:53.772
+耗    时:0时0分23秒889毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 13:39:28.181
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+返回:
+开始时间:2017-02-22 13:39:06.299
+结束时间:2017-02-22 13:39:27.098
+耗    时:0时0分20秒799毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 14:58:56.489
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+错误信息:列“DVSTARTTIME”不属于表 Table。
+引发异常的方法:System.Data.DataColumn GetDataColumn(System.String)
+错误应用程序或对象名称:System.Data
+在堆栈中表现形式:   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 CitizendCard_Service.BLL.OrderService.GetAccess(CitizenOrder co)
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData)
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-22 13:53:06.299
+结束时间:2017-02-22 14:58:56.442
+耗    时:1时5分50秒143毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 15:08:52.370
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":""}
+开始时间:2017-02-22 15:08:12.278
+结束时间:2017-02-22 15:08:52.323
+耗    时:0时0分40秒44毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 15:21:48.115
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":""}
+开始时间:2017-02-22 15:21:36.406
+结束时间:2017-02-22 15:21:48.068
+耗    时:0时0分11秒662毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 17:21:02.218
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+错误信息:ORA-00933: SQL 命令未正确结束
+
+引发异常的方法:System.Data.DataSet ExecSQLDataSet(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLDataSet(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 238
+   在 CitizendCard_Service.BLL.OrderService.GetLastBarcode(Int32 orderno) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 281
+   在 CitizendCard_Service.BLL.OrderService.ExecUpdateTrans(CitizenOrder co, Gs_f_Access g) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 355
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 381
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-22 17:20:59.960
+结束时间:2017-02-22 17:21:02.187
+耗    时:0时0分2秒226毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 17:23:30.709
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+错误信息:ORA-00933: SQL 命令未正确结束
+
+引发异常的方法:System.Data.DataSet ExecSQLDataSet(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLDataSet(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 238
+   在 CitizendCard_Service.BLL.OrderService.GetLastBarcode(Int32 orderno) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 281
+   在 CitizendCard_Service.BLL.OrderService.ExecUpdateTrans(CitizenOrder co, Gs_f_Access g) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 355
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 381
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-22 17:21:47.817
+结束时间:2017-02-22 17:23:30.662
+耗    时:0时1分42秒844毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 18:03:22.677
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+错误信息:索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+引发异常的方法:System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider, System.String, System.ParamsArray)
+错误应用程序或对象名称:mscorlib
+在堆栈中表现形式:   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 320
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-22 18:03:02.659
+结束时间:2017-02-22 18:03:22.646
+耗    时:0时0分19秒986毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 18:14:55.802
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+错误信息:索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+引发异常的方法:System.Text.StringBuilder AppendFormatHelper(System.IFormatProvider, System.String, System.ParamsArray)
+错误应用程序或对象名称:mscorlib
+在堆栈中表现形式:   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object[] args)
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 321
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-22 18:12:41.787
+结束时间:2017-02-22 18:14:55.771
+耗    时:0时2分13秒983毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-22 21:13:05.717
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3746
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:899cb851abf2d2de8ecb85ad5f494b1f
+
+返回:
+开始时间:2017-02-22 21:13:00.907
+结束时间:2017-02-22 21:13:05.686
+耗    时:0时0分4秒778毫秒
+====================【结束】====================

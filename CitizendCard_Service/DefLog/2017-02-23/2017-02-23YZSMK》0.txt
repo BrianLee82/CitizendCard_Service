@@ -1,0 +1,471 @@
+﻿
+
+
+====================【开始】====================
+记录时间：2017-02-23 14:13:23.083
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:YZSMK
+signature:c845f0b66abc11527dabe3176a24c360
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":"[{\"ProductID\":3656,\"ProductName\":\"市民卡（学生）\"},{\"ProductID\":3657,\"ProductName\":\"市民卡（成人）\"}]"}
+开始时间:2017-02-23 14:13:21.100
+结束时间:2017-02-23 14:13:23.078
+耗    时:0时0分1秒978毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:31:24.085
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+错误信息:ORA-01830: 日期格式图片在转换整个输入字符串之前结束
+ORA-06512: 在 line 1
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 201
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 335
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 15:31:22.618
+结束时间:2017-02-23 15:31:24.054
+耗    时:0时0分1秒435毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:33:23.547
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+错误信息:ORA-01830: 日期格式图片在转换整个输入字符串之前结束
+ORA-06512: 在 line 1
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 201
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 335
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 15:31:44.943
+结束时间:2017-02-23 15:33:23.531
+耗    时:0时1分38秒587毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:38:12.502
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+错误信息:ORA-01830: 日期格式图片在转换整个输入字符串之前结束
+ORA-06512: 在 line 1
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 201
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 335
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 15:38:09.213
+结束时间:2017-02-23 15:38:12.471
+耗    时:0时0分3秒257毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:38:49.275
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+错误信息:ORA-01830: 日期格式图片在转换整个输入字符串之前结束
+ORA-06512: 在 line 1
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 201
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 335
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 15:38:20.553
+结束时间:2017-02-23 15:38:49.243
+耗    时:0时0分28秒690毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:46:19.955
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":""}
+开始时间:2017-02-23 15:46:08.376
+结束时间:2017-02-23 15:46:19.908
+耗    时:0时0分11秒531毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:50:44.553
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+返回:
+开始时间:2017-02-23 15:50:44.381
+结束时间:2017-02-23 15:50:44.522
+耗    时:0时0分0秒140毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:58:32.018
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899002
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:83fa3625b84e2fa83403b84c7667434c
+
+错误信息:ORA-06550: 第 1 行, 第 238 列: 
+PL/SQL: ORA-00933: SQL 命令未正确结束
+ORA-06550: 第 1 行, 第 166 列: 
+PL/SQL: SQL Statement ignored
+ORA-06550: 第 1 行, 第 241 列: 
+PLS-00103: 出现符号 "end-of-file"在需要下列之一时：
+ ( begin case
+   declare end exception exit for goto if loop mod null pragma
+   raise return select update while with <an identifier>
+   <a double-quoted delimited-identifier> <a bind v
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql)
+   在 CitizendCard_Service.BLL.OrderService.ExecUpdateTrans(CitizenOrder co, Gs_f_Access g)
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData)
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 15:55:09.082
+结束时间:2017-02-23 15:58:31.986
+耗    时:0时3分22秒903毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 15:59:59.452
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899002
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:83fa3625b84e2fa83403b84c7667434c
+
+错误信息:ORA-06550: 第 1 行, 第 238 列: 
+PL/SQL: ORA-00933: SQL 命令未正确结束
+ORA-06550: 第 1 行, 第 166 列: 
+PL/SQL: SQL Statement ignored
+ORA-06550: 第 1 行, 第 241 列: 
+PLS-00103: 出现符号 "end-of-file"在需要下列之一时：
+ ( begin case
+   declare end exception exit for goto if loop mod null pragma
+   raise return select update while with <an identifier>
+   <a double-quoted delimited-identifier> <a bind v
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 201
+   在 CitizendCard_Service.BLL.OrderService.ExecUpdateTrans(CitizenOrder co, Gs_f_Access g) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 377
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 381
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 15:59:17.523
+结束时间:2017-02-23 15:59:59.421
+耗    时:0时0分41秒898毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:01:54.696
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899002
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:83fa3625b84e2fa83403b84c7667434c
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":""}
+开始时间:2017-02-23 16:01:49.468
+结束时间:2017-02-23 16:01:54.665
+耗    时:0时0分5秒197毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:28:19.364
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+错误信息:ORA-00001: 违反唯一约束条件 (GSTEST.CITIZENORDER_PK)
+ORA-06512: 在 line 1
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 201
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 333
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 16:28:18.008
+结束时间:2017-02-23 16:28:19.333
+耗    时:0时0分1秒325毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:31:17.084
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+错误信息:ORA-00001: 违反唯一约束条件 (GSTEST.CITIZENORDER_PK)
+ORA-06512: 在 line 1
+
+引发异常的方法:Int32 ExecSQLTransaction(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLTransaction(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 201
+   在 CitizendCard_Service.BLL.OrderService.ExecInsertTrans(CitizenOrder co, Gs_f_Access gf) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 333
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 407
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 16:28:42.512
+结束时间:2017-02-23 16:31:17.052
+耗    时:0时2分34秒540毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:32:45.516
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":""}
+开始时间:2017-02-23 16:32:44.864
+结束时间:2017-02-23 16:32:45.485
+耗    时:0时0分0秒621毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:37:44.947
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899001
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:b9e8d37dc67f63b6314ac312b4f1cd20
+
+返回:
+开始时间:2017-02-23 16:37:44.759
+结束时间:2017-02-23 16:37:44.915
+耗    时:0时0分0秒156毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:39:06.945
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899002
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:83fa3625b84e2fa83403b84c7667434c
+
+错误信息:ORA-00904: "C"."NTICKETINFOID": 标识符无效
+
+引发异常的方法:System.Data.DataSet ExecSQLDataSet(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLDataSet(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 238
+   在 CitizendCard_Service.BLL.OrderService.GetLastBarcode(Int32 orderno) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 282
+   在 CitizendCard_Service.BLL.OrderService.ExecUpdateTrans(CitizenOrder co, Gs_f_Access g) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 357
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 381
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 16:39:06.258
+结束时间:2017-02-23 16:39:06.914
+耗    时:0时0分0秒656毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:39:43.479
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899002
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:83fa3625b84e2fa83403b84c7667434c
+
+错误信息:ORA-00904: "C"."NTICKETINFOID": 标识符无效
+
+引发异常的方法:System.Data.DataSet ExecSQLDataSet(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLDataSet(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 238
+   在 CitizendCard_Service.BLL.OrderService.GetLastBarcode(Int32 orderno) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 282
+   在 CitizendCard_Service.BLL.OrderService.ExecUpdateTrans(CitizenOrder co, Gs_f_Access g) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 357
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 381
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 16:39:42.823
+结束时间:2017-02-23 16:39:43.448
+耗    时:0时0分0秒625毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:41:25.245
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899002
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:83fa3625b84e2fa83403b84c7667434c
+
+错误信息:ORA-00904: "C"."NTICKETINFOID": 标识符无效
+
+引发异常的方法:System.Data.DataSet ExecSQLDataSet(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.DAL.OracleHelper.ExecSQLDataSet(String sql) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\DAL\OracleHelper.cs:行号 238
+   在 CitizendCard_Service.BLL.OrderService.GetLastBarcode(Int32 orderno) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 282
+   在 CitizendCard_Service.BLL.OrderService.ExecUpdateTrans(CitizenOrder co, Gs_f_Access g) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\BLL\OrderService.cs:行号 357
+   在 CitizendCard_Service.Controllers.CitizenCardsController.SaveCard(Card oData) 位置 d:\office\扬州\SourceCode\YZSXH\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 381
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-23 16:40:12.758
+结束时间:2017-02-23 16:41:25.214
+耗    时:0时1分12秒456毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-23 16:46:47.741
+调用接口名:SaveCard 
+
+参数:
+merchantCode:YZSMK
+ProductId:3657
+Barcode:1899002
+IcNo:410183198201014353
+Name:李帅
+OuterNo:9999999
+Signature:83fa3625b84e2fa83403b84c7667434c
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":""}
+开始时间:2017-02-23 16:46:45.790
+结束时间:2017-02-23 16:46:47.695
+耗    时:0时0分1秒904毫秒
+====================【结束】====================

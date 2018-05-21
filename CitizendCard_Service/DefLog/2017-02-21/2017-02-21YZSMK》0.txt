@@ -1,0 +1,76 @@
+﻿
+
+
+====================【开始】====================
+记录时间：2017-02-21 10:38:00.515
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:YZSMK
+signature:c845f0b66abc11527dabe3176a24c360
+
+返回:{"IsTrue":false,"ResultCode":"106","ResultMsg":"签名失败","ResultJson":null}
+开始时间:2017-02-21 10:38:00.506
+结束时间:2017-02-21 10:38:00.513
+耗    时:0时0分0秒7毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-21 10:41:20.827
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:YZSMK
+signature:c845f0b66abc11527dabe3176a24c360
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":"[{\"ProductID\":3746,\"ProductName\":\"VIP观光卡218\"},{\"ProductID\":3747,\"ProductName\":\"VIP观光卡288\"},{\"ProductID\":3748,\"ProductName\":\"VIP旋转餐厅卡388\"},{\"ProductID\":3749,\"ProductName\":\"VIP旋转餐厅卡488\"}]"}
+开始时间:2017-02-21 10:41:19.755
+结束时间:2017-02-21 10:41:20.775
+耗    时:0时0分1秒19毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-21 10:54:50.602
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:YZSMK
+signature:c845f0b66abc11527dabe3176a24c360
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":"[{\"ProductID\":3746,\"ProductName\":\"VIP观光卡218\"},{\"ProductID\":3747,\"ProductName\":\"VIP观光卡288\"},{\"ProductID\":3748,\"ProductName\":\"VIP旋转餐厅卡388\"},{\"ProductID\":3749,\"ProductName\":\"VIP旋转餐厅卡488\"}]"}
+开始时间:2017-02-21 10:54:46.499
+结束时间:2017-02-21 10:54:50.564
+耗    时:0时0分4秒64毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-21 11:00:21.384
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:YZSMK
+signature:c845f0b66abc11527dabe3176a24c360
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":"[{\"ProductID\":3746,\"ProductName\":\"VIP观光卡218\"},{\"ProductID\":3747,\"ProductName\":\"VIP观光卡288\"},{\"ProductID\":3748,\"ProductName\":\"VIP旋转餐厅卡388\"},{\"ProductID\":3749,\"ProductName\":\"VIP旋转餐厅卡488\"}]"}
+开始时间:2017-02-21 11:00:21.033
+结束时间:2017-02-21 11:00:21.346
+耗    时:0时0分0秒313毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-21 11:00:44.748
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:YZSMK
+signature:c845f0b66abc11527dabe3176a24c360
+
+返回:{"IsTrue":true,"ResultCode":"00","ResultMsg":"成功","ResultJson":"[{\"ProductID\":3746,\"ProductName\":\"VIP观光卡218\"},{\"ProductID\":3747,\"ProductName\":\"VIP观光卡288\"},{\"ProductID\":3748,\"ProductName\":\"VIP旋转餐厅卡388\"},{\"ProductID\":3749,\"ProductName\":\"VIP旋转餐厅卡488\"}]"}
+开始时间:2017-02-21 11:00:44.346
+结束时间:2017-02-21 11:00:44.713
+耗    时:0时0分0秒366毫秒
+====================【结束】====================

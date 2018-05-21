@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+
+    <script>
+        $(function(){
+            $("button").click(function () {
+            
+                $.ajax({
+                    type: "get",
+                    url: "http://123.57.21.131:8088/CitizenCard/api/citizencards/ListCards",
+                    data: { "merchantCode": "YZSMK", "signature": "c845f0b66abc11527dabe3176a24c360" },
+                    success: function (data, status) {
+                        if (status == "success") {
+                            $("#div_test").html(data);
+                        }
+                    }
+                });
+
+
+            });
+        
+        }:
+      
+       
+
+    </script>
+  
+</head>
+<body>
+    <button id="btn1">测试</button>
+    <div id="div_test">
+
+    </div>
+</body>
+</html>

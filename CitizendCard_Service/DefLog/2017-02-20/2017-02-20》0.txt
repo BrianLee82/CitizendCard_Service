@@ -1,0 +1,64 @@
+﻿
+
+
+====================【开始】====================
+记录时间：2017-02-20 23:14:29.716
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:
+signature:
+
+错误信息:未将对象引用设置到对象的实例。
+引发异常的方法:Boolean CheckParameters(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.Models.Common.CheckParameters(String parames) 位置 d:\office\扬州\CitizenCard\CitizendCard_Service\CitizendCard_Service\Models\Common.cs:行号 56
+   在 CitizendCard_Service.Controllers.CitizenCardsController.ListCards(ListPartner listpartner) 位置 d:\office\扬州\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 46
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-20 23:14:29.622
+结束时间:2017-02-20 23:14:29.708
+耗    时:0时0分0秒86毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-20 23:16:14.354
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:
+signature:
+
+错误信息:未将对象引用设置到对象的实例。
+引发异常的方法:Boolean CheckParameters(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.Models.Common.CheckParameters(String parames) 位置 d:\office\扬州\CitizenCard\CitizendCard_Service\CitizendCard_Service\Models\Common.cs:行号 56
+   在 CitizendCard_Service.Controllers.CitizenCardsController.ListCards(ListPartner listpartner) 位置 d:\office\扬州\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 46
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-20 23:16:14.231
+结束时间:2017-02-20 23:16:14.314
+耗    时:0时0分0秒83毫秒
+====================【结束】====================
+
+
+====================【开始】====================
+记录时间：2017-02-20 23:16:36.359
+调用接口名:Get_CitizenCards 
+
+参数:
+merchantCode:
+signature:
+
+错误信息:未将对象引用设置到对象的实例。
+引发异常的方法:Boolean CheckParameters(System.String)
+错误应用程序或对象名称:CitizendCard_Service
+在堆栈中表现形式:   在 CitizendCard_Service.Models.Common.CheckParameters(String parames) 位置 d:\office\扬州\CitizenCard\CitizendCard_Service\CitizendCard_Service\Models\Common.cs:行号 56
+   在 CitizendCard_Service.Controllers.CitizenCardsController.ListCards(ListPartner listpartner) 位置 d:\office\扬州\CitizenCard\CitizendCard_Service\CitizendCard_Service\Controllers\CitizenCardsController.cs:行号 46
+
+返回:{"IsTrue":false,"ResultCode":"101","ResultMsg":"内部操作失败","ResultJson":null}
+开始时间:2017-02-20 23:16:36.243
+结束时间:2017-02-20 23:16:36.322
+耗    时:0时0分0秒79毫秒
+====================【结束】====================
